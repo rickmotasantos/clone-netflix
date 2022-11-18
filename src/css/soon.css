@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 40px;
+}
+
+.container .soon p{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 28px;
+    color: #e50914;
+}
+
+.container .language {
+    display: flex;
+    align-items: center;
+}
+
+.container .right {
+    display: flex;
+    align-items: center;
+}
+
+.container .right .language {
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+.container .language i:nth-child(1){
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+.container .language select {
+    background-color: transparent;
+    font-size: 17px;
+    border: none;
+    padding-right: 5px;
+    -webkit-appearance: none;
+    outline: 0;
+}
+
+.container .language option {
+    background-color: lightblue;
+    width: 150px;
+}
+.container .language i:nth-child(3){
+    font-size: 20px;
+}
+
+.container .right .btn-entrar {
+    padding: 6px 8px;
+    border-radius: 4px;
+    margin-left: 15px;
+}

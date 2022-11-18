@@ -1,0 +1,121 @@
+.top {
+    margin-top: 20px;
+}
+
+.main-login {
+    margin-left: 30%;
+    margin-top: 20px;
+    width: 400px;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.log-in {
+    display: flex;
+    flex-direction: column;
+}
+
+.log-in .title {
+    padding: 30px 0 30px 30px;
+}
+
+.log-in .form form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.log-in .form input[type=email],
+.log-in .form input[type=password]{
+    background-color: rgb(78, 78, 78);
+    padding: 15px;
+    border-radius: 8px;
+    border: 0;
+    outline: none;
+}
+
+.log-in .form input::placeholder {
+    color: #ccc;
+    font-size: 15px;
+}
+
+.log-in .form input[type=password] {
+    margin-top: 13px;
+}
+
+.log-in .form input[type=submit] {
+    padding: 10px;
+    border: none;
+    margin-top: 40px;
+    border-radius: 8px;
+    font-weight: 800;
+}
+
+.cadastre-ajuda {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.lembrar-senha {
+    display: flex;
+}
+
+.lembrar-senha input[type=checkbox]{
+    margin-right: 5px;
+    margin-bottom: 70px;
+    
+}
+
+.lembrar-senha input:checked {
+    background-color: #ccc;
+}
+
+.cadastre-ajuda .lembrar-senha p {
+    color: #ccc;
+}
+
+.cadastre-ajuda .ajuda {
+    color: #ccc;
+}
+
+.log-in .cadastrar {
+    margin: 0 0 15px 30px;
+}
+
+.log-in .cadastrar .assAgora {
+    font-weight: 800;
+}
+
+.log-in .assAgora:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.log-in .protecao-google{
+    margin: 0 30px;
+}
+
+.log-in .protecao-google .cor-azul {
+    color: #2f78e6;
+}
+
+.log-in .cor-azul:hover {
+    border-bottom: 1px solid #2f78e6;
+}
+
+@media (max-width:830px){
+    .main-login {        
+    margin-left: 15%;
+    }
+}
+
+@media (max-width: 650px){
+
+    body {
+        background-color: #000;
+    }
+    .main-login {
+        margin-left: 0;
+        width: 100%;
+    }
+}

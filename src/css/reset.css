@@ -1,0 +1,26 @@
+hmtl {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url(../img/netflix-fundo.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}

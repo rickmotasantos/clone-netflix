@@ -1,0 +1,62 @@
+.marc-escura{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #000 0%, transparent 100%);
+}
+
+.cor-vermelha {
+    background-color: #e50914;
+}
+
+.topo-anuncio {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.topo-anuncio .btn-novo {
+    border-radius: 17px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo-anuncio .btn-novo a {
+    padding: 1px 8px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.topo-anuncio .valor-anuncio p{
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+}
+
+.topo-anuncio .valor-anuncio span {
+    color: rgb(61, 60, 60);
+    font-weight: 800;
+}
+
+.topo-anuncio .btn-saibMais .saiba-mais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo-anuncio .saiba-mais p{
+    font-size: 15px;
+    color: #2f78e6;
+    font-weight: bold;
+} 
+
+.topo-anuncio .saiba-mais i {
+    font-size: 20px;
+    color: #2f78e6;
+    font-weight: bold;
+}
